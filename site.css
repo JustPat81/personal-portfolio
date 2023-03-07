@@ -1,0 +1,47 @@
+/** 
+    Title: site.css
+    Author: Patrick Wolff
+    Date: 04 March 2023
+    Description: CSS Styling for Personal Portfolio
+*/
+
+/* Navbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #192035;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #A09806;
+  }
+
+  h1 {
+    color:white;
+    text-align: left;
+  }
+
+  .center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
